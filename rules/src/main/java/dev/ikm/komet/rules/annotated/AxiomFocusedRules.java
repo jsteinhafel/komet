@@ -158,7 +158,7 @@ public class AxiomFocusedRules extends RulesBase {
             @MethodPredicate(method = "isAxiomRoleOnly", args = {"$observation"})
     })
     public void axiomIsRoleButNotARoleGroup(ObservationRecord $observation,
-                                            ConcurrentHashSet<Consequence<?>> $actionList,
+//                                            ConcurrentHashSet<Consequence<?>> $actionList,
                                             RhsContext ctx) {
 
         if ($observation.subject() instanceof AxiomSubjectRecord axiomSubjectRecord) {
